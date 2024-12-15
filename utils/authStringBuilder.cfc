@@ -22,7 +22,7 @@ component {
         setResponseType( arguments.response_type );
         return this;
     }
-
+    
     public void function setAuthEndpoint( required string authEndpoint ){
         variables.authEndpoint = arguments.authEndpoint;
     }
